@@ -1,0 +1,75 @@
+footer {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0; /* Сокращаем отступы, чтобы уменьшить высоту */
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%; /* Контролирует ширину для центрирования содержимого */
+    max-width: 1200px;
+    margin-bottom: 0; /* Отступ от нижней части футера */
+}
+
+.footer-menu {
+    display: flex;
+    gap: 5px; /* Расстояние между ссылками */
+}
+
+.logo {
+    width: 250px; /* Задайте нужный размер логотипа */
+    height: 180px;
+}
+
+.citation {
+    text-align: center;
+    margin: 5px 0;
+    max-width: 70%;
+}
+
+.citation-text {
+    font-size: 24px;
+    line-height: 0;
+    font-weight: bold;
+}
+
+.author {
+    text-align: center;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.socialMedia {
+    height: 50px;
+    width: 100%;
+    background-color: #141414;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icon img {
+    filter: brightness(0) invert(1); /* Превращает иконки в белые */
+    transition: filter 0.3s; /* Плавный эффект при наведении */
+}
+
+.social-icon img:hover {
+    filter: brightness(0.8) invert(1.2); /* Чуть более яркие на hover */
+}
+
+img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s; /* Add a hover effect */
+    padding: 40px;
+}
+
+img:hover {
+    transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
