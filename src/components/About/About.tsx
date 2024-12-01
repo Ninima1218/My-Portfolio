@@ -4,9 +4,11 @@ import './About.css';
 const About = () => {
   return (
     <main>
-      <p>I like to create something new, learn new things, develop. I love to see the result of my work, to see how stylishly and beautifully a new project is implemented, that’s why I chose front-end. </p>
+      <h4>WHO AM I</h4>
+      <p>Hello! I'm Nino, a frontend developer from Tbilisi, Georgia, with a keen eye for design and a passion for creating stylish and functional web applications. </p>
       <section>
-        <p>My hobbies:  </p>
+        <h4>My Journey</h4>
+        <p>Originally, my career took root in education, where I spent many years working at a university. However, my intrinsic desire to innovate and see tangible results led me to transition into IT. Over the past year, I've immersed myself in the world of frontend development and have found immense satisfaction in this creative and ever-evolving field.</p>
       </section>
     </main>
   );
