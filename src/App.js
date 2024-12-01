@@ -5,7 +5,7 @@ import About from './components/About/About.tsx';
 import Intro from './components/Intro/Intro.tsx';
 import Portfolio from './components/Portfolio/Portfolio.tsx';
 import Footer from './components/Footer/Footer.tsx';
-import './App.css'; // Основные стили для всего приложения
+import './App.css'; 
 
 const App = () => {
   return (
@@ -17,7 +17,7 @@ const App = () => {
       <Portfolio />
       <Footer />
     </div>
-  );
+  )
 };
 
 export default App;

@@ -11,20 +11,17 @@ const Header = () => {
   };
 
   return (
-    <header className={`header ${isMenuOpen ? 'menu-open' : ''}`}>
+    <header className="header">
       <h1 className="header-name">Nino</h1>
-      <img 
-        src={menuImage} 
-        alt="menu-logo" 
-        className="menu-icon" 
-        onClick={toggleMenu} 
-      />
-
-      {isMenuOpen && (
-        <div className="burger-menu">
-          <NavLink />
+      <div className="burger-menu">
+        <img
+          src={menuImage}
+          alt="menu-logo"
+          className="menu-icon"
+        />
+        <div className="burger-menu-content"> <NavLink />
         </div>
-      )}
+      </div>
     </header>
   );
 };

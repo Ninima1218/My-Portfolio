@@ -3,7 +3,7 @@ import Image from '../../images/some-img.jpg';
 import './Skills.css'; 
 import { ClockLoader } from 'react-spinners';
 
-const Skills: React.FC = () => {
+const Skills = () => {
     return (
     <div className="skills-container">
         <div className='skills-list'>

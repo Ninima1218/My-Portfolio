@@ -3,25 +3,20 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0; /* Сокращаем отступы, чтобы уменьшить высоту */
+    padding: 0; 
 }
 
 .footer-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 80%; /* Контролирует ширину для центрирования содержимого */
+    width: 80%; 
     max-width: 1200px;
-    margin-bottom: 0; /* Отступ от нижней части футера */
-}
-
-.footer-menu {
-    display: flex;
-    gap: 5px; /* Расстояние между ссылками */
+    margin-bottom: 0; 
 }
 
 .logo {
-    width: 250px; /* Задайте нужный размер логотипа */
+    width: 250px;
     height: 180px;
 }
 
@@ -32,7 +27,7 @@ footer {
 }
 
 .citation-text {
-    font-size: 24px;
+    font-size: 20px;
     line-height: 0;
     font-weight: bold;
 }
@@ -40,7 +35,8 @@ footer {
 .author {
     text-align: center;
     font-style: italic;
-    font-size: 18px;
+    font-size: 20px;
+    font-family: 'Allura', static;
 }
 
 .socialMedia {
@@ -54,22 +50,22 @@ footer {
 }
 
 .social-icon img {
-    filter: brightness(0) invert(1); /* Превращает иконки в белые */
-    transition: filter 0.3s; /* Плавный эффект при наведении */
+    filter: brightness(0) invert(1); 
+    transition: filter 0.3s; 
 }
 
 .social-icon img:hover {
-    filter: brightness(0.8) invert(1.2); /* Чуть более яркие на hover */
+    filter: brightness(0.8) invert(1.2); 
 }
 
 img {
     width: 30px;
     height: 30px;
-    transition: transform 0.3s; /* Add a hover effect */
+    transition: transform 0.3s; 
     padding: 40px;
 }
 
 img:hover {
-    transform: scale(1.1); /* Slightly enlarge on hover */
+    transform: scale(1.1); 
 }
 
