@@ -3,21 +3,22 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0; 
+    padding: 0;
 }
 
 .footer-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 80%; 
+    width: 90%;
     max-width: 1200px;
-    margin-bottom: 0; 
+    margin-bottom: 0;
 }
 
 .logo {
     width: 250px;
     height: 180px;
+    padding-right: 0;
 }
 
 .citation {
@@ -36,8 +37,23 @@ footer {
     text-align: center;
     font-style: italic;
     font-size: 20px;
-    font-family: 'Allura', static;
+    font-family: 'Allura', sans-serif;
 }
+
+.footer-menu {
+    width: 300px;
+    padding-left: 40px;
+}
+
+.footer-contacts {
+    background-color: rgb(160, 158, 158);
+    border: 1px solid rgb(160, 158, 158);
+    border-radius: 10px;
+    padding: 10px;
+    width: 280px;
+    height: 170px;
+}
+
 
 .socialMedia {
     height: 50px;
@@ -50,22 +66,21 @@ footer {
 }
 
 .social-icon img {
-    filter: brightness(0) invert(1); 
-    transition: filter 0.3s; 
+    filter: brightness(0) invert(1);
+    transition: filter 0.3s;
 }
 
 .social-icon img:hover {
-    filter: brightness(0.8) invert(1.2); 
+    filter: brightness(0.8) invert(1.2);
 }
 
 img {
     width: 30px;
     height: 30px;
-    transition: transform 0.3s; 
-    padding: 40px;
+    transition: transform 0.3s;
+    padding: 30px;
 }
 
 img:hover {
-    transform: scale(1.1); 
+    transform: scale(1.1);
 }
-

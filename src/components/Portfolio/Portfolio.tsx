@@ -1,24 +1,26 @@
 import React from 'react';
-import './Portfolio.css'; // Подключи файл стилей для секции портфолио
+import Justice from '../../images/justice.png';
+import LanguageApp from '../../images/language-app.png';
+import './Portfolio.css'; 
 
 const projects = [
   {
-    title: 'Project 1',
+    title: 'Legal Services Firm',
     description: 'Описание проекта 1',
-    imageUrl: '/images/project1.png', // Заменить на свои изображения
-    link: 'https://ссылка-на-проект1.com'
+    imageUrl: Justice,
+    link: 'https://project-itgirlschool.github.io/fr83_justice/#services'
   },
   {
-    title: 'Project 2',
+    title: 'Language App',
     description: 'Описание проекта 2',
-    imageUrl: '/images/project2.png',
-    link: 'https://ссылка-на-проект2.com'
+    imageUrl: LanguageApp,
+    link: 'https://github.com/Ninima1218/language-app/tree/mobx'
   }
 ];
 
 const Portfolio = () => {
   return (
-    <section id="portfolio">
+    <section id="portfolio" className='portfolio-section'>
       <h2>Portfolio</h2>
       <div className="portfolio-grid">
         {projects.map((project, index) => (

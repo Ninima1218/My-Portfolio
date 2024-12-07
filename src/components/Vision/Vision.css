@@ -1,0 +1,16 @@
+.vision {
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(to right, #5f4a32, #160c04);
+    padding: 40px;
+    color: #ebcab4;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vision p {
+    width: 50%;
+    line-height: 1.6;
+}
