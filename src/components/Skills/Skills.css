@@ -6,6 +6,8 @@
     padding: 40px;
     overflow: hidden;
     position: relative;
+    max-width: 100%;
+    height: auto;
 }
 
 .skills-list {
@@ -52,6 +54,7 @@
 .skills-summary p {
     font-size: 18px;
     line-height: 1.6;
+    margin-left: 20px;
     transition: transform 0.3s ease-in-out;
    
 }
